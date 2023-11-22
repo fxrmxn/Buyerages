@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(32, 49, 43);
+    height: 400px;
+    width: 60%;
+}
+.details {
+    background-color: rgb(26, 36, 28);
+    height: 800px;
+    width: 30%;
+    position: absolute;
+    padding: 0px 0px;
+    border-radius: 10px;
+    margin: 77px 47px 52px 549px;
+
+}
+.details h1 {
+    color: aliceblue;
+    position: relative;
+    font-family: 'Microsoft YaHei Light';
+
+}
+.details div p {
+    padding: 0px 0px;
+    color: rgb(251, 251, 252);
+    font-size: 15px;
+    position: relative;
+    right: 0px;
+    inline-size: 300px;
+    height: 30px;
+    justify-content: end;
+    padding: 0px 0px;
+    margin: 21px -30px -6px -3px;
+    font-family: 'Microsoft YaHei Light';
+
+}
+.input input {
+    text-align: top;
+    justify-content: start;
+    display: flex;
+    inline-size: 393px;
+    height: 37px;
+    width: 350px;
+    border-radius: 0px;
+    background-color: rgb(21, 27, 16);
+    font-family: 'Microsoft YaHei Light';
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+.button {
+    margin: 48px 10px 10px 0px;
+    height: 37px;
+    width: 114px;
+    font-size: 20px;
+    background-color: rgb(57, 65, 51);
+    border-color: white;
+    border-radius: 12px;
+}
+.inner_input input {
+    display: inline-block;
+    padding: 3px;
+    inline-size: 393px;
+    height: 37px;
+    width: 350px;
+    border-radius: 10px;
+    font-family: 'Microsoft YaHei Light';
+    background-color: rgb(21, 27, 16);
+
+}
+.biggerbox textarea {
+    display: flex;
+    padding: 3px;
+    inline-size: 393px;
+    height: 133px;
+    width: 350px;
+    text-align: start;
+    border-radius: 0px;
+    background-color: rgb(21, 27, 16);
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Microsoft YaHei Light';
+}

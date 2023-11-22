@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rentproperty.css">
+    <title>RENT PROPERTY</title>
+</head>
+<style>
+    .navigation {
+            font-family: 'Microsoft YaHei Light';
+            font-size: 15px;
+            display: flex;
+        }
+        .navigation li a:hover {
+            background-color: rgba(206, 216, 206, 0.74);
+            border-radius: 2px;
+            font-size: 15px;
+            color: rgb(55, 59, 61);
+            transform: scale(1.1);
+        }
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+        section {
+            font-family: 'Microsoft YaHei Light';
+            margin: 3px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 50px;
+        }
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Microsoft YaHei Light';
+        }
+</style>
+<body>
+    <nav class="navbar">
+        <ul class="navigation">
+        <li class="item" id="homeservice"><a href="./sevices.html" > SERVICES</a></li>
+    </ul>
+    <section class="details">
+        <h1>Add Property For RENT</h1>
+        <div class="input">
+            <p>*Property Number</p>
+            <input type="number" placeholder="Enter your Property_number">
+            <p>*Property Owner</p>
+            <input type="text" placeholder="Enter your Property_name">
+            <p>*Property Customer</p>
+            <input type="text" placeholder="Enter your Property_location">
+            <div class="inner_input">
+                <p>*Property Price</p>
+                <input type="email" placeholder="Enter Property_pincode">
+                <p>*Down Payment</p>
+                <input type="number" placeholder="Enter your Property_owner">
+                <p>*Tenure</p>
+            <input type="number" placeholder="Enter tenure in months"><p>months</p>
+            </div>
+            <p>*Total Down Payment After Tax</p>
+            <input type="text" placeholder="Enter your Property_price"><br>
+            <button class="button">SUBMIT</button>
+        </div>
+    </section>
+</body>
+</html>

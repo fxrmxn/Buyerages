@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addproperty.css">
+    <title>SELL PROPERTY</title>
+</head>
+<style>
+    .navigation {
+            font-family: 'Microsoft YaHei Light';
+            font-size: 15px;
+            display: flex;
+        }
+        .navigation li a:hover {
+            background-color: rgba(206, 216, 206, 0.74);
+            border-radius: 2px;
+            font-size: 15px;
+            color: rgb(55, 59, 61);
+            transform: scale(1.1);
+        }
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+        section {
+            font-family: 'Microsoft YaHei Light';
+            margin: 3px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 50px;
+        }
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Microsoft YaHei Light';
+        }
+</style>
+<body>
+    <style> 
+
+        .container{
+            float: left;
+            margin: 10px;
+        }
+        .right{
+            float: left;
+            margin: 7px;
+            color: white;
+            font-size: 14px;
+            font-weight:bold;
+        }
+        .radio {
+            width: 20px;
+            position: relative;
+        }
+        .radio label {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgb(126, 166, 203);
+            border-radius: 50px;
+            border: 1px solid black;
+        }
+        .radio label:after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            border: 6px solid rgb(10, 51, 122);
+            border-radius: 50px;
+            opacity: 0;
+            }
+        .radio label:hover::after {
+            opacity: 0.3;
+            }
+        .radio input[type=radio] {
+            visibility: hidden;
+        }
+        .radio input[type=radio]:checked + label:after {
+             opacity: 1;
+            }  
+                </style>   
+    <nav class="navbar">
+        <ul class="navigation">
+        <li class="item" id="homeservice"><a href="./sevices.html" > SERVICES</a></li>
+    </ul>
+    <section class="details">
+        <h1>Add Property</h1>
+        <div class="input">
+            <p>*Property Number</p>
+            <input type="number" placeholder="Enter your Property_number">
+            <p>*Property Name</p>
+            <input type="text" placeholder="Enter your Property_name">
+            <p>*Description</p>
+            <div class="biggerbox">
+                <textarea name="myText" cols="30" rows="20" placeholder="Enter the description"></textarea>
+            </div>
+            <p>*Property Location</p>
+            <input type="text" placeholder="Enter your Property_location">
+            <div class="inner_input">
+                <p>*Property Pincode</p>
+                <input type="email" placeholder="Enter Property_pincode">
+                <p>*Property Type</p>
+                <div class="container">
+                    <div class="radio">
+                    <input type="radio" value="sell" name='type' id='sell' />
+                    <label for="sell"></label>
+                    </div>
+                    </div>
+                    <div class="right">SELL</div>
+                     
+                    <div class="container">
+                    <div class="radio">
+                    <input type="radio" value="rent" name='type' id='rent' />
+                    <label for="rent"></label>
+                    </div>
+                    </div>
+                    <div class="right">RENT</div>
+                <div><p></p>
+                <p>*Property Owner</p>
+                <input type="number" placeholder="Enter your Property_owner">
+                </div>
+                <p>*Property Price</p>
+            <input type="text" placeholder="Enter your Property_price"><br>
+            <button class="button">SUBMIT</button>
+        </div>
+    </section>
+</body>
+</html>

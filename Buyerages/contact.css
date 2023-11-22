@@ -1,0 +1,275 @@
+body {
+
+    background-color: black;
+    height: 1200px;
+    z-index: -1;
+}
+
+.bgimage img {
+    width: 100%;
+    height: 841px;
+    opacity: 0.5;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.logo {
+    position: center;
+    margin: auto;
+    /* padding-left: 20%; */
+    margin-left: 20%;
+    top: 32px;
+    font-size: 20px;
+    color: chartreuse;
+    left: 30px;
+}
+
+img.logo {
+    border-radius: 25px;
+    height: 122px;
+}
+
+.nav {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(25, 28, 31);
+    width: 100%;
+    height: 60px;
+    margin-block: 0px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+
+}
+
+.nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    position: relative;
+    font-family: 'Microsoft YaHei Light';
+    display: inline-block;
+    list-style: none;
+}
+
+.nav ul li a {
+    padding: 0 10px;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei Light';
+
+
+}
+
+.nav li a {
+    display: inline-block;
+    color: rgb(250, 252, 247);
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Microsoft YaHei Light';
+
+
+}
+
+.nav li a:hover {
+    color: rgb(24, 221, 67);
+
+    border-radius: 4px;
+
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 5px;
+    /* font-style: bold; */
+
+}
+
+.details {
+    /* background-color: rgb(13, 17, 20); */
+    height: 800px;
+    width: 40%;
+    position: absolute;
+    top: 190px;
+    right: 0px;
+    padding: 0px 0px;
+
+}
+
+.details h1 {
+    color: aliceblue;
+    position: relative;
+    left: 5px;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.details div p {
+    padding: 0px 0px;
+    color: rgb(251, 251, 252);
+    font-size: 20px;
+    position: relative;
+    right: 0px;
+    inline-size: 300px;
+    height: 30px;
+    justify-content: end;
+    padding: 0px 0px;
+    margin: 21px -30px -6px -3px;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.input input {
+    text-align: top;
+    justify-content: start;
+    display: flex;
+    inline-size: 393px;
+    height: 37px;
+    width: 600px;
+    border-radius: 0px;
+    background-color: rgb(21, 27, 16);
+    font-family: 'Microsoft YaHei Light';
+    color: white;
+    font-size: 14px;
+
+}
+
+.button {
+    margin: 48px 10px 10px 0px;
+    height: 37px;
+    width: 114px;
+    font-size: 20px;
+    background-color: rgb(57, 65, 51);
+    border-color: white;
+    border-radius: 12p
+}
+
+.inner_input input {
+    display: inline-block;
+    padding: 3px;
+    inline-size: 393px;
+    height: 37px;
+    width: 597px;
+    border-radius: 0px;
+    /* padding: 0px 90px 0px 0px; */
+    background-color: rgb(21, 27, 16);
+
+}
+
+.biggerbox textarea {
+    display: flex;
+    padding: 3px;
+    inline-size: 393px;
+    height: 133px;
+    width: 597px;
+    text-align: start;
+    border-radius: 0px;
+    /* padding: 0px 90px 0px 0px; */
+    background-color: rgb(21, 27, 16);
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.left_details {
+    /* background-color: rgb(13, 17, 20); */
+    height: 800px;
+    width: 60%;
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    padding: 0px 0px;
+    z-index: -1;
+}
+
+.maindetails {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 190px;
+    padding: 65px 20px;
+    margin: 10px 15px;
+}
+
+.adress {
+    width: 362px;
+    font-size: 18px;
+    margin: 0px 13px;
+    padding: 40px 0px 10px 190px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.firstline {
+    font-size: 50px;
+    font-weight: 100;
+    padding: 48px 22px 40px 209px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.number {
+    width: 362px;
+    font-size: 18px;
+    margin: 0px 13px;
+    padding: 40px 0px 10px 190px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.logodown {
+    position: absolute;
+    top: 991px;
+    left: 600px;
+    opacity: 4.4;
+
+
+}
+
+.mail {
+    color: chartreuse;
+    position: absolute;
+    top: 1110px;
+    left: 650px;
+    opacity: 0.7;
+    font-size: 22px;
+    font-family: 'Microsoft YaHei Light';
+
+}
+
+.y {
+    position: relative;
+
+
+
+}
+
+#mar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* display: flex; */
+    top: 1030px;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 100%;
+    /* behavior: initial; */
+    font-family: 'Microsoft YaHei Light';
+
+
+
+}

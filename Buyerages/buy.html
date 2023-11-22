@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rentproperty.css">
+    <title>BUY PROPERTY</title>
+</head>
+<style>
+    .navigation {
+            font-family: 'Microsoft YaHei Light';
+            font-size: 15px;
+            display: flex;
+        }
+        .navigation li a:hover {
+            background-color: rgba(206, 216, 206, 0.74);
+            border-radius: 2px;
+            font-size: 15px;
+            color: rgb(55, 59, 61);
+            transform: scale(1.1);
+        }
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+        section {
+            font-family: 'Microsoft YaHei Light';
+            margin: 3px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 50px;
+        }
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Microsoft YaHei Light';
+        }
+</style>
+<body>
+    <nav class="navbar">
+        <ul class="navigation">
+        <li class="item" id="homeservice"><a href="./sevices.html" > SERVICES</a></li>
+    </ul>
+    </nav>
+    <section class="details">
+        <h1>Buy Form</h1>
+        <div class="input">
+            <p>*Property Number</p>
+            <input type="number" >
+            <p>*Property Owner</p>
+            <input type="text" >
+            <!-- <p>*Description</p>
+            <div class="biggerbox">
+                <textarea name="myText" cols="30" rows="20" placeholder="Enter the description"></textarea>
+            </div> -->
+            <p>*Property Customer</p>
+            <input type="text" >
+            <div class="inner_input">
+                <p>*Property Price</p>
+                <input type="number" >
+                <p>*Taxes</p>
+                <input type="number" >
+            </div>
+            <p>*Total Price</p>
+            <input type="text">
+            <p>*Price paid in ADVANCE</p>
+            <input type="text"><br>
+            <button class="button">BUY</button>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .main-container{
+        height: 105vh;
+    }
+   input:focus-visible{
+   outline: none;
+    }
+</style>
+</head>
+<body>
+    <div class="flex justify-center items-center main-container bg-gradient-to-b from-green-700 via bg-blue-200"> 
+        <div class="w-1/4 shadow-lg p-5 rounded bg-white">
+<p class="font-bold text-2xl text-center mt-2 mb-2">LOGIN</p>
+    <p class="font-bold text-l lg\:text-left mt-2 mb-2">SELLER</p>
+    <div class="mb-2">
+        <label>PHONE_NUMBER</label>
+        <br />
+    <input 
+    type="text"
+    placeholder="Type you're PHONE_NUMBER"
+    class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full"
+    />
+    </div>
+    <div>
+        <label>PASSWORD</label>
+        <br />
+        <input 
+        type="password"
+        placeholder="Type you're password"
+       class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full"
+       />
+        </div>
+        <button
+         class= "block bg-gradiant-to-r  from-purple-700 via bg-pink-200 text-white pt-3 pb-3 pl-6 pr-6 rounded w-25 mt-2 hover:bg-purple-500"
+        >
+        LOGIN
+            </button>
+        <div class="font-bold text-l lg\:text-left mt-2 mb-2">BUYER</div>
+<div class="mb-3">
+    <label>PHONE_NUMBER</label>
+    <br />
+<input 
+type="text"
+placeholder="Type PHONE_NUMBER"
+class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full"
+/>
+</div>
+
+<div>
+    <label>PASSWORD</label>
+    <br />
+    <input 
+    type="password"
+    placeholder="Type you're password"
+   class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full"
+   />
+    </div>
+    
+    <button
+class= "block bg-gradiant-to-r  from-purple-700 via bg-pink-200 text-white pt-3 pb-3 pl-6 pr-6 rounded w-25 mt-2 hover:bg-purple-500"       
+>
+LOGIN
+    </button>
+    <a class="text-center block mt-10">Register now!</a>
+    </div>
+    </div>
+</body>
+</html>

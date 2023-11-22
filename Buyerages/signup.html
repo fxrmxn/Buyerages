@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"
+        integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sign Up</title>
+</head>
+<style>
+ .main-container {
+    height: 120vh;
+}
+input:focus-visible {
+    outline: none;
+}</style>
+<body>
+    <div class="flex justify-center items-center main-container bg-gradient-to-b from-green-600 via bg-blue-200">
+        <div class="w-1/4 shadow-lg p-7 rounded bg-white">
+            <p class="font-bold text-2xl text-center mt-3 mb-8"> BUYER/SELLER REGISTRATION</p>
+            <form  method="post" action="/signup">
+            <div class="mb-2" >
+                <label for="name" class="font-bold mb-2 text-sm">NAME</label>
+                <br />
+                <input type="text" id="name" placeholder="Type you're name" class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full" />
+            </div>
+            <div class="mb-2">
+                <label for="username" class="font-bold mb-2 text-sm">PHONE_NUMBER</label>
+                <br />
+                <input type="text" placeholder="Type you're PHONE_NUMBER" id="username"class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full" />
+            </div>
+            <div class="mb-2">
+                <label for="username" class="font-bold mb-2 text-sm">EMAIL</label>
+                <br />
+                <input type="email" placeholder="Type you're email" id="email" class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full" />
+            </div>
+            <div class="mb-2">
+                <label for="dob" class="font-bold mb-2 text-sm">Day of Birth:</label>
+                <input type="date" id="dob"
+                    class="form-input rounded-md py-2 px-2 block w-full leading-5 text-purple-600 focus:outline-none focus:shadow-outline-blue-300 transition duration-150 ease-in-out">
+            </div>
+            <div id="choose" class="text-sm mb-2">
+                <label class="font-bold mb-2 text-sm">CHOOSE:</label>
+                <br />
+                <input type="radio" name="choose" id="player" class="text-sm-mx-1" checked><label
+                    for="player">BUYER</label>
+                <input type="radio" name="choose" id="coach" class="text-sm-mx-1" checked><label
+                    for="coach">SELLER</label>
+            </div>
+ 
+            <div>
+                <label for="password" class="font-bold mb-2 text-sm">Password</label>
+                <br />
+                <input type="password" placeholder="Type you're password"
+                    class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full" />
+            </div>
+
+            <div>
+                <label for="conf_password" class="font-bold mb-2 text-sm">Confirm Password</label>
+                <br />
+                <input type="password" placeholder="Confirm you're password"
+                    class="border-b-2 pt-2 pb-2 pl-2 mb-2 w-full" />
+            </div>
+            <button
+                class=" block bg-gradiant-to-r  from-purple-700 via bg-pink-200 text-white pt-3 pb-3 pl-6 pr-6 rounded w-full mt-2 hover:bg-purple-500">
+                SUBMIT
+            </button>
+            </form>
+            <p class="text-center block mt-10">Already have an account!<a href="./login.html"
+                    class="text-center block text-purple-900">LOGIN</a></p>
+            </div>
+    </div>
+</body>
+</html>
